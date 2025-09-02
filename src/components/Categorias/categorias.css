@@ -1,0 +1,96 @@
+.categorias{
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.categorias h1 {
+    margin: 80px 0 16px 0;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.categorias p {
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.categorias .categorias__items {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 65px;
+    height: 278px;
+    justify-content: center;
+
+}
+
+.categorias .categorias__items div {
+    border: 1px solid #F3F4F6;
+    margin-right: 40px;
+    text-align: left;
+    box-shadow: 0px 4px 6px -4px #0000001A;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+
+}
+
+.categorias .categorias__items img{
+    width: 64px;
+    height: 64px;
+    position: relative;
+    left: 23px;
+    top: 33px;
+}
+
+.categorias .categorias__items h4{
+    margin-top: 60px;
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    position: relative;
+    left: 23px;
+
+
+}
+
+.categorias .categorias__items p {
+    font-family: Segoe UI;
+    font-size: 16px;
+    color: #4A5565;
+    text-align: left;
+    position: relative;
+    left: 23px;
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-top: 10px;
+    margin-bottom: 18px;
+
+}
+
+
+.categorias .categorias__items .verProd {
+    position: relative;
+    left: 23px;
+    text-decoration: none;
+    color: #005900;
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}

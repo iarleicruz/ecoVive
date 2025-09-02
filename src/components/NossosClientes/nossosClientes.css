@@ -1,0 +1,68 @@
+.clientes{
+    justify-content: center;
+    margin: 80px auto 80px auto;
+    width: 1200px;
+   
+}
+
+.clientes h2{
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+
+.clientes .clientes__text {
+    display: grid;
+    grid-template-columns: 384px 384px 384px;
+    flex-direction: column;
+    height: 240px;
+    gap: 32px;
+}
+.clientes .clientes__text div{
+  
+    background: #F9FAFB;
+    gap: 32px;
+    border-radius: 16px;
+    padding: 32px 0 0 32px;
+}
+
+
+
+
+.clientes .clientes__text p{
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.clientes .clientes__text h4{
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.clientes .clientes__text span {
+   font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    position: relative;
+    left: 0;
+    top: 2px;
+}

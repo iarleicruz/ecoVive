@@ -1,0 +1,102 @@
+
+.home {
+  background: linear-gradient(90deg, #F0FDF4 0%, #EFF6FF 100%);
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+.home__container{
+ width: 1200px;
+ display: flex;
+    
+}
+.home__text {
+  margin-top: 80px;
+  
+}
+.home__text h1 {
+font-family: Lora;
+font-weight: 700;
+font-style: Bold;
+font-size: 56px;
+line-height: 60px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #101828;
+
+}
+
+.home__text h1 strong {
+ color: #005900;
+ font-size: 56px;
+ font-family: Lora;
+font-weight: 700;
+font-style: Bold;
+
+
+ 
+}
+.home__text p {
+margin-top: 24px;
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+color: #4A5565;
+
+}
+
+.home__text .btn__home__text {
+  margin-top: 33px;
+}
+.home__text .btn__home__text .btnExpProd{
+background: #005900;
+padding: 20px 60px 20px 32px;
+border-radius: 10px;
+opacity: 1;
+border-radius: 10px;
+font-family: Segoe UI;
+font-weight: 600;
+font-size: 16px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+.home__text .btn__home__text .btnSolB2B{
+border: 1px solid #005900;
+color: #005900;
+background: transparent;
+padding: 20px 34px 20px 34px;
+border-radius: 10px;
+opacity: 1;
+border-radius: 10px;
+font-family: Segoe UI;
+font-weight: 600;
+font-size: 16px;
+text-decoration: none;
+margin-left: 16px;
+}
+
+.home__img .img__hero {
+width: 584;
+height: 384;
+border-radius: 16px;
+opacity: 1;
+margin-top: 90px;
+
+
+}
+.home__img .img__cert {
+
+position: absolute;
+top: 484px;
+left: 875px;
+
+
+
+
+
+}

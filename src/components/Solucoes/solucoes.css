@@ -1,0 +1,51 @@
+.solucoes {
+   
+    background: #005900;
+    height: 360px;
+    text-align: center;
+}
+
+.solucoes .solucoes__text h4{
+    padding-top: 80px;
+    width: 1200px;
+    margin: auto;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+
+
+}
+.solucoes .solucoes__text p {
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 18px;
+    margin-bottom: 60px;
+    color: #DCFCE7;
+
+}
+
+.solucoes .solucoes__text .conhecerProd{
+   padding: 20px;
+   border-radius: 10px;
+   background: #FFFFFF;
+   color: #005900;
+   text-decoration: none;
+   font-family: Segoe UI;
+   font-weight: 600;
+   font-style: Semibold;
+   font-size: 16px;
+   line-height: 24px;
+
+}

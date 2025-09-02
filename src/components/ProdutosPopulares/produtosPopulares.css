@@ -1,0 +1,132 @@
+
+.produtos {
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.produtos h2{
+    text-align: center;
+    margin-top: 80px ;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.produtos p{
+    text-align: center;
+    margin-top: 16px ;
+    margin-bottom: 64px;
+    font-size: 20px;
+    color: #4A5565;
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 28px;
+    text-align: center;
+
+}
+.produtos .produtos__items {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    flex-direction: column;
+    height: 432px;
+    gap: 32px;
+
+}
+.produtos .produtos__items div {
+    box-shadow: 0px 4px 6px -4px #0000001A;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+    
+
+ }
+
+ .produtos .produtos__items .produtos__item__img{
+    width: 280px;
+    height: 190px;
+ }
+ .produtos .produtos__items h4{
+   
+    position: relative;
+    left: 24px;
+    top: 24px;
+    font-size: 18px;
+ }
+ .produtos .produtos__items p{
+   
+    position: relative;
+    left: 18px;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #005900;
+    margin: 0px 0 26px 0;
+    width: 112px;
+ }
+
+  .produtos .produtos__items .imgEstrelas {
+    margin: 26px 0 0 0;
+    position: relative;
+    left: 10px;
+
+  }
+
+ .produtos .produtos__items .addCar {
+    padding: 14px;
+    opacity: 1;
+    position: relative;
+    left: 24px;
+    border-radius: 10px;
+    background: #005900;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+  
+ }
+  .produtos .produtos__items .addCar .iconCar {
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+    
+}
+
+.img {
+    display: flex;
+      
+}
+ span{
+    font-size: 14px;
+    color: #4A5565;
+    position: relative;
+    top: -5px;
+    left: 10px;
+    
+
+}
+.preco {
+    height: 40px;
+}
+
+.preco span{
+    position: relative;
+    top: -32px;
+    left: 85px;
+    color: #6A7282;
+    font-size: 14px;
+    text-decoration: line-through;
+
+    
+
+}

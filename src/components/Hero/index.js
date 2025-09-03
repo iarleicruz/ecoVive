@@ -11,7 +11,7 @@ function Hero(){
             <div className="home__container">
                  <div className="home__text">
                     <h1>Produtos<br/><strong>Sustentáveis</strong><br/>
-                    para umn Futuro Melhor
+                    para um Futuro Melhor
                     </h1>
 
                     <p>Descubra milhares de produtos eco-frienly de marcas comprometidas com a sustentabilidade. Faça a diferença com cada compra</p>

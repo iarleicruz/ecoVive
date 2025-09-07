@@ -61,6 +61,13 @@
     background: #005900;
     color: #FFFFFF;
 }
+.nossos__produtos .nossos__produtos__menu .link__nossos__produtos__menu:nth-child(2),
+.nossos__produtos .nossos__produtos__menu .link__nossos__produtos__menu:nth-child(3),
+.nossos__produtos .nossos__produtos__menu .link__nossos__produtos__menu:nth-child(4),
+.nossos__produtos .nossos__produtos__menu .link__nossos__produtos__menu:nth-child(5){
+   color: #364153;
+   background: #F9FAFB;
+}
 .nossos__produtos .nossos__produtos__menu .link__nossos__produtos__menu:nth-child(6),
 .nossos__produtos .nossos__produtos__menu .link__nossos__produtos__menu:nth-child(7){
     margin-left: calc(600px - 300px);

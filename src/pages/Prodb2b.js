@@ -1,6 +1,17 @@
+import HeroB2B from '../components/HeroB2B';
+import EcoviveB2B from '../components/EcoviveB2B'
+import TransEmpresas from '../components/TransEmpresas'
+import NossosProdutosB2B from '../components/NossosProdutosB2B'
+
+
 function Prodb2b(){
     return(
-            <h1>Teste Prodb2b</h1>
+          <div>
+             <HeroB2B />
+           <EcoviveB2B />
+           <NossosProdutosB2B />
+           <TransEmpresas />
+          </div>
     )
 }
 export default Prodb2b;

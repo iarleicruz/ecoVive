@@ -7,6 +7,7 @@ import Prodb2c from './pages/Prodb2c';
 import Contato from './pages/contato';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 function RoutesApp(){
@@ -20,6 +21,7 @@ function RoutesApp(){
     <Route path="/Prodb2c" element={ <Prodb2c/> } />
     <Route path="/Contato" element={ <Contato/> } />
 </Routes>
+<Footer/>
 </BrowserRouter>
 
     )

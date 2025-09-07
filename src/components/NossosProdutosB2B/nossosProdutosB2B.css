@@ -1,0 +1,202 @@
+
+.nossos__produtos {
+    width: 1200px;
+    margin: auto;
+    height: 1800px;
+    margin-bottom: 40px;
+ 
+}
+.nossos__produtos h2{
+    text-align: center;
+    margin-top: 80px ;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.nossos__produtos p{
+    text-align: center;
+    margin-top: 16px ;
+    margin-bottom: 64px;
+    font-size: 20px;
+    color: #4A5565;
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.nossos__produtos .nossos__produtos__menu {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    gap: 16px ;
+    justify-content: center;
+     margin-bottom: 50px;
+    
+}
+.nossos__produtos .nossos__produtos__menu .link__nossos__produtos__menu{
+    text-decoration: none;
+    color: #364153;
+    width: 200px;
+    height: 50px;
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+    
+}
+.nossos__produtos .nossos__produtos__menu .link__nossos__produtos__menu:nth-child(1){
+    background: #005900;
+    color: #FFFFFF;
+}
+.nossos__produtos .nossos__produtos__menu .link__nossos__produtos__menu:nth-child(6),
+.nossos__produtos .nossos__produtos__menu .link__nossos__produtos__menu:nth-child(7){
+    margin-left: calc(600px - 300px);
+    color: #364153;
+    background: #F9FAFB;
+}
+
+.nossos__produtos .nossos__produtos__items {
+    display: grid;
+    grid-template-columns: 384px 384px 384px;
+    flex-direction: column;
+    height: 632px;
+    padding-bottom: 80px;
+    gap: 32px;
+    
+
+
+}
+.nossos__produtos .nossos__produtos__items_div {
+   
+    box-shadow: 0px 4px 6px -4px #0000001A;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+    padding: 24px;
+    border-radius: 16px;
+ }
+
+ .nossos__produtos .nossos__produtos__items .nossos__produtos__item__img{
+    width: 100%;
+    height: 192px;
+ }
+ .nossos__produtos .nossos__produtos__items h4{
+   
+    position: relative;
+    top: 24px;
+    font-size: 20px;
+ }
+ .nossos__produtos .nossos__produtos__items .nossos__produtos__text{
+   
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    width: 320px;
+    color: #4A5565;
+    margin-top: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+
+ }
+
+.nossos__produtos .nossos__produtos__items .nossos__prod__caract {
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+    height: 20px;
+    
+}
+.nossos__produtos .nossos__produtos__items .nossos__prod__caract img{
+    height: 16px;
+    position: relative;
+    top: 10px;
+   
+}
+
+.nossos__produtos .nossos__produtos__items .nossos__prod__caract p{
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #4A5565;
+position: relative;
+bottom: 12px;
+}
+
+.nossos__produtos .nossos__produtos__items .nossos__prod__unid {
+display: flex;
+justify-content: space-between;
+border-top: 1px solid #E5E5E5;
+margin-top: 36px;
+}
+.nossos__produtos .nossos__produtos__items .nossos__prod__unid .nossos__prod__unid__text p,
+.nossos__prod__unid__val p{
+margin-bottom: 10px;
+text-align: left;
+font-size: 14px;
+line-height: 24px;
+
+}
+.nossos__produtos .nossos__produtos__items .nossos__prod__unid .nossos__prod__unid__val p{
+color: #101828;
+font-size: 16px;
+font-family: Segoe UI;
+font-weight: 600;
+font-style: Semibold;
+line-height: 24px;
+
+}
+
+.nossos__produtos .nossos__produtos__items .nossos__prod__unid .nossos__prod__unid__val p:nth-child(2){
+font-family: Segoe UI;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #101828;
+
+}
+.nossos__produtos .nossos__produtos__items .nossos__prod__unid .nossos__prod__unid__val p:nth-child(3){
+font-family: Segoe UI;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #005900;
+
+}
+
+.nossos__produtos__items .btn__solCot {
+display: flex;
+justify-content: center;
+}
+
+.nossos__produtos__items .btn__solCot .btn{
+background: #005900;
+padding: 10px 80px;
+border-radius: 10px;
+opacity: 1;
+border-radius: 10px;
+font-family: Segoe UI;
+font-weight: 600;
+font-size: 16px;
+color: #FFFFFF;
+text-decoration: none;
+
+
+}

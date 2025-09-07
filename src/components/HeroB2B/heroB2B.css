@@ -1,20 +1,20 @@
 
-.home {
-  background: linear-gradient(90deg, #F0FDF4 0%, #EFF6FF 100%);
+.heroB2B {
+  background: linear-gradient(90deg, #155DFC 0%, #005900 100%);
   display: flex;
   justify-content: center;
   height: 600px;
 }
-.home__container{
+.heroB2B__container{
  width: 1200px;
  display: flex;
     
 }
-.home__text {
+.heroB2B__text {
   margin-top: 80px;
   
 }
-.home__text h1 {
+.heroB2B__text h1 {
 font-family: Lora;
 font-weight: 700;
 font-style: Bold;
@@ -22,51 +22,45 @@ font-size: 56px;
 line-height: 60px;
 letter-spacing: 0%;
 vertical-align: middle;
-color: #101828;
+color: #FFFFFF;
+
 
 }
 
-.home__text h1 strong {
- color: #005900;
- font-size: 56px;
- font-family: Lora;
-font-weight: 700;
-font-style: Bold;
 
- }
-.home__text p {
+.heroB2B__text p {
 margin-top: 24px;
-padding-bottom: 12px;
+margin-bottom: 62px;
 font-family: Segoe UI;
 font-weight: 400;
 font-style: Regular;
 font-size: 20px;
 line-height: 28px;
 letter-spacing: 0%;
-color: #4A5565;
+color: #FFFFFF;
 
 }
 
-.home__text .btn__home__text {
+.heroB2B__text .btn__heroB2Be__text {
   margin-top: 33px;
 }
-.home__text .btn__home__text .btnExpProd{
-background: #005900;
-padding: 20px 25px 20px 32px;
+.heroB2B__text .btn__heroB2B__text .btnSoliCot{
+background: #FFFFFF;
+padding: 20px 20px 20px 32px;
 border-radius: 10px;
 opacity: 1;
 border-radius: 10px;
 font-family: Segoe UI;
 font-weight: 600;
 font-size: 16px;
-color: #FFFFFF;
+color: #005900;
 text-decoration: none;
 }
 
 
-.home__text .btn__home__text .btnSolB2B{
-border: 1px solid #005900;
-color: #005900;
+.heroB2B__text .btn__heroB2B__text .btnVerProd{
+border: 1px solid #FFFFFF;
+color: #FFFFFF;
 background: transparent;
 padding: 20px 34px 20px 34px;
 border-radius: 10px;
@@ -79,7 +73,7 @@ text-decoration: none;
 margin-left: 16px;
 }
 
-.home__img .img__hero {
+.heroB2B__img .img__hero {
 width: 584;
 height: 384;
 border-radius: 16px;
@@ -88,7 +82,7 @@ margin-top: 90px;
 
 
 }
-.home__img .img__cert {
+.heroB2B__img .img__cert {
 
 position: absolute;
 top: 484px;

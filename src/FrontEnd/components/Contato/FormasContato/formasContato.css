@@ -1,0 +1,243 @@
+.formaContato__container{
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+    background: #FFFFFF;
+  
+}
+
+
+.formaContato__contato__items {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 65px;
+    height: 220px;
+    gap: 32px;
+    
+}
+
+.formaContato__contato__items div {
+    border: 1px solid #F9FAFB;
+    background: #F9FAFB;
+    /* box-shadow: 0px 4px 6px -4px #0000001A;
+    box-shadow: 0px 10px 15px -3px #0000001A; */
+
+}
+
+.formaContato__contato__items img{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: 33px;
+}
+
+.formaContato__contato__items h4{
+    margin-top: 60px;
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.formaContato__contato__items p {
+    font-family: Segoe UI;
+    font-size: 14px;
+    color: #4A5565;
+    text-align: center;
+    font-weight: 400;
+    font-style: Regular;
+    margin: 10px;
+    line-height: 28px;
+
+}
+.formaContato__contato__items p span{
+  color: #005900;
+   font-size: 16px;
+
+}
+
+.formContato {
+    display: flex;
+    height: 750px;
+    background: #FFFFFF;
+    gap: 50px;
+   
+}
+.formContato form{
+    display: flex;
+    flex-direction: column;
+    width: 584px;
+    text-align: left;
+    
+}
+
+.formContato form label{
+font-family: Segoe UI;
+font-weight: 600;
+font-style: Semibold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+margin-bottom: 8px;
+margin-top: 24px;
+
+
+}
+.formContato form input{
+width: 584px;
+height: 50px;
+opacity: 1;
+border-radius: 10px;
+border: 1px solid #D1D5DC;
+padding: 10px;
+}
+.formContato form textarea{
+width: 584px;
+height: 170px;
+opacity: 1;
+border-radius: 10px;
+border: 1px solid #D1D5DC;
+padding: 10px;
+
+}
+
+.formContato .btn__envMensagem {
+ background: #005900;
+ font-family: Segoe UI;
+font-weight: 600;
+font-style: Semibold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #FFFFFF;
+margin-top: 20px;
+padding: 15px;
+opacity: 1;
+border-radius: 10px;
+text-decoration: none;
+
+
+}
+.outrasFormasContato h4,
+.formContato h4{
+font-family: Segoe UI;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.chatOnline,
+.redesSociais,
+.newsletter {
+width: 584px;
+height: 190px;
+opacity: 1;
+border-radius: 16px;
+background: #0059000D;
+margin: 24px;
+
+}
+.chatOnline h5,
+.redesSociais h5,
+.newsletter h5{
+font-family: Segoe UI;
+font-weight: 600;
+font-style: Semibold;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-align: left;
+padding: 24px 0 24px 24px;
+}
+.chatOnline p,
+.redesSociais p,
+.newsletter p{
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #4A5565;
+text-align: left;
+padding: 0 0 18px 24px;
+
+}
+
+.chatOnline .btn__inChat {
+background: #005900;
+padding: 10px;
+border-radius: 10px;
+text-decoration: none;
+color: #FFFFFF;
+position: relative;
+right: 220px;
+}
+
+.redesSociais .btn__facebook, 
+.redesSociais .btn__instagram,
+.redesSociais .btn__x {
+padding: 10px;
+border-radius: 10px;
+text-decoration: none;
+
+}
+.redesSociais {
+background: #F9FAFB;
+}
+.redesSociais .btn__facebook {
+background: #155DFC;
+color: #FFFFFF;
+position: relative;
+right: 158px;
+}
+.redesSociais .btn__instagram {
+background: #E60076;
+color: #FFFFFF;
+position: relative;
+right: 142px;
+}
+.redesSociais .btn__x {
+background: #51A2FF;
+color: #FFFFFF;
+padding: 10px 20px 10px 20px;
+position: relative;
+right: 126px;
+}
+
+.newsletter input {
+width: 420px;
+height: 40px;
+opacity: 1;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border: 1px solid #D1D5DC;
+position: relative;
+right: 28px;
+padding: 10px;
+
+}
+
+.newsletter .btn__insc {
+padding: 10px;
+opacity: 1;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+background: #005900;
+color: #FFFFFF;
+position: relative;
+right: 28px;
+text-decoration: none;
+}

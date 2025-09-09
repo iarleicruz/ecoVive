@@ -1,0 +1,75 @@
+.pergFrequentes__container{
+     
+    background: #F9FAFB;
+}
+.pergFrequentes{
+    text-align: center;
+    width: 1200px;
+    height: 1200px;
+    margin: auto;
+}
+
+.pergFrequentes h4{
+padding-top: 80px;
+font-family: Segoe UI;
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #101828;
+margin-bottom: 16px;
+}
+
+.pergFrequentes p {
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 60px;
+color: #4A5565;
+
+}
+
+.pergFrequentes_perg {
+width: 830px;
+height: 160px;
+opacity: 1;
+border-radius: 16px;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+background: #FFFFFF;
+margin: auto;
+margin-bottom: 24px;
+
+
+}
+.pergFrequentes_perg h6 {
+font-family: Segoe UI;
+font-weight: 600;
+font-style: Semibold;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #101828;
+text-align: left;
+padding: 24px 0 14px 24px;
+}
+
+.pergFrequentes_perg p {
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-align: left;
+padding-left: 24px;
+}

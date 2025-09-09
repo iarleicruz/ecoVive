@@ -1,0 +1,52 @@
+
+.hero__sobre {
+  background: linear-gradient(90deg, #F0FDF4 0%, #EFF6FF 100%);
+  display: flex;
+  justify-content: center;
+  height: 360px;
+  
+}
+.hero__sobre__container{
+ width: 1200px;
+ 
+    
+}
+.hero__sobre__text {
+  margin-top: 80px;
+  text-align: center;
+  
+}
+.hero__sobre__text h1 {
+font-family: Lora;
+font-weight: 700;
+font-style: Bold;
+font-size: 56px;
+line-height: 60px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #101828;
+
+}
+
+.hero__sobre__text h1 strong {
+ color: #005900;
+ font-size: 56px;
+ font-family: Lora;
+font-weight: 700;
+font-style: Bold;
+
+ }
+.hero__sobre__text p {
+margin-top: 24px;
+padding-bottom: 12px;
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+color: #4A5565;
+
+
+}
+

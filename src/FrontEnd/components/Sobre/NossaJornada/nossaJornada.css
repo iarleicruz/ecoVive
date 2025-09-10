@@ -1,0 +1,165 @@
+.nossaJornada {
+    background: #F9FAFB;
+}
+
+.nossaJornada__container{
+    text-align: center;
+    width: 1200px;
+    height: 1400px;
+    margin: auto;
+
+}
+.nossaJornada__Text {
+    padding-top: 80px;
+}
+.nossaJornada__Text h2 {
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 40px;
+
+}
+.nossaJornada__Text p {
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 16px;
+    color: #4A5565;
+
+
+}
+.nossaJornada__items {
+    margin-top: 64px;
+    display: flex ;
+    
+}
+.nossaJornada__items::after {
+ content: url("./assets/borda_.png");
+ height: 1000px;
+ position: relative;
+ right: calc(1200px / 2);
+ 
+
+}
+
+
+.nossaJornada__div__1 {
+    width: 640px;
+    height: 1035px;
+  
+}
+
+
+.nossaJornada__div__1 div {
+width: 530px;
+height: 168px;
+opacity: 1;
+border-radius: 16px;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+background: #FFFFFF;
+margin-bottom: 264px;
+
+
+}
+
+
+.nossaJornada__div__2 div {
+width: 530px;
+height: 160px;
+opacity: 1;
+border-radius: 16px;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+background: #FFFFFF;
+margin-top: 264px;
+
+}
+
+.nossaJornada__div__1 div {
+ padding: 30px 24px 8px 0;
+ text-align: right;
+
+}
+.nossaJornada__div__1 div span {
+ font-family: Segoe UI;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: right;
+color: #005900;
+margin-right: 8px;
+
+}
+.nossaJornada__div__1 div h4 {
+font-family: Segoe UI;
+font-weight: 600;
+font-style: Semibold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: right;
+
+}
+.nossaJornada__div__1 div p {
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: right;
+color: #4A5565;
+margin-top: 10px;
+
+
+}
+
+
+/*  */
+
+.nossaJornada__div__2 div {
+ padding: 30px 0px 8px 24px;
+ text-align: left;
+
+}
+.nossaJornada__div__2 div span {
+ font-family: Segoe UI;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: right;
+color: #005900;
+margin-left: -8px;
+
+}
+.nossaJornada__div__2 div h4 {
+font-family: Segoe UI;
+font-weight: 600;
+font-style: Semibold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.nossaJornada__div__2 div p {
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+color: #4A5565;
+margin-top: 10px;
+
+}

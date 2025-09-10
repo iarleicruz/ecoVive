@@ -76,11 +76,11 @@ color: #4A5565;
 }
 
 .sobre__items__2 div {
-    border: 1px solid #F9FAFB;
     background: #F9FAFB;
     display: flex;
     justify-content: left;
     flex-direction: column;
+    height: 190px;
     
    
 }
@@ -89,13 +89,13 @@ color: #4A5565;
     width: 32px;
     height: 32px;
     position: relative;
-    top: 33px;
+    top: 23px;
     margin-left: 24px;
     
 }
 
 .sobre__items__2 h4{
-    margin-top: 60px;
+    margin-top: 36px;
     font-family: Segoe UI;
     font-weight: 600;
     font-size: 18px;
@@ -113,7 +113,7 @@ color: #4A5565;
     font-weight: 400;
     font-style: Regular;
     margin: 10px;
-    line-height: 28px;
+    line-height: 20px;
     margin-left: 24px;
 
 }

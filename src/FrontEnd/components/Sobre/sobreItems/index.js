@@ -43,12 +43,12 @@ function SobreItem(){
         
                         <div>
                             <img src={ fol } alt="" />
-                            <h4>sustentabilidade</h4>
+                            <h4>Sustentabilidade</h4>
                             <p>Comprometidos com práticas que <br/> preservam o meio ambiente para as <br /> futuras gerações.</p>
                         </div>
                         <div>
                             <img src={ cor } alt="" />
-                            <h4>responsabilidade Social</h4>
+                            <h4>Responsabilidade Social</h4>
                             <p>Apoiamos comunidades locais e <br/> práticas de comércio justo em toda <br/> nossa cadeia.</p>
                         </div>
                         <div>

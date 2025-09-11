@@ -1,8 +1,8 @@
 import './nossoCompromisso.css';
-import nossoComp from './assets/Compromisso com Sustentabilidade.png'
-import cert from './assets/Overlay.png'
-import people from './assets/Overlay-1.png'
-import fol from './assets/Overlay-2.png'
+import nossoComp from './assets/Compromisso com Sustentabilidade.png';
+import cert from './assets/Overlay.png';
+import people from './assets/Overlay-1.png';
+import fol from './assets/Overlay-2.png';
 
 function nossoCompromisso(){
     return (

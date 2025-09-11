@@ -1,13 +1,13 @@
 
-import './sobreItems.css'
+import './sobreItems.css';
 
-import overlay from './assets/Overlay.png'
-import overlay1 from './assets/Overlay-1.png'
-import overlay2 from './assets/Overlay-2.png'
-import fol from './assets/fol.png'
-import cor from './assets/cor.png'
-import cert from './assets/cert.png'
-import glob from './assets/glob.png'
+import overlay from './assets/Overlay.png';
+import overlay1 from './assets/Overlay-1.png';
+import overlay2 from './assets/Overlay-2.png';
+import fol from './assets/fol.png';
+import cor from './assets/cor.png';
+import cert from './assets/cert.png';
+import glob from './assets/glob.png';
 
 function SobreItem(){
     return(

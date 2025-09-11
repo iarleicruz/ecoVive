@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import svg from './assets/SVG.png'
-import kitAlim from './assets/Kit Alimentação Corporativa.png'
-import kitEsc from './assets/Kit Escritório Sustentável.png'
-import brindes from './assets/Brindes Corporativos Sustentáveis.png'
-import produtos from './assets/Produtos de Limpeza Biodegradáveis.png'
-import uniforme from './assets/Uniformes de Algodão Orgânico.png'
-import embalag from './assets/Embalagens Compostáveis.png'
+import svg from './assets/SVG.png';
+import kitAlim from './assets/Kit Alimentação Corporativa.png';
+import kitEsc from './assets/Kit Escritório Sustentável.png';
+import brindes from './assets/Brindes Corporativos Sustentáveis.png';
+import produtos from './assets/Produtos de Limpeza Biodegradáveis.png';
+import uniforme from './assets/Uniformes de Algodão Orgânico.png';
+import embalag from './assets/Embalagens Compostáveis.png';
 
 import './nossosProdutosB2B.css'
 import { BsFillCalculatorFill } from "react-icons/bs";

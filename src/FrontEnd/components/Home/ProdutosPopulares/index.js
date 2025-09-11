@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { CiShoppingCart } from 'react-icons/ci';
-import imgCopo from './assets/copo.png'
-import imgProdHig from './assets/produtosHigiene.png'
-import imgProdLimp from './assets/produtosLimpeza.png'
-import imgUtens from './assets/utensilios.png'
-import './produtosPopulares.css'
-import imgEstrelas from './assets/estrelas.png'
+import imgCopo from './assets/copo.png';
+import imgProdHig from './assets/produtosHigiene.png';
+import imgProdLimp from './assets/produtosLimpeza.png';
+import imgUtens from './assets/utensilios.png';
+import imgEstrelas from './assets/estrelas.png';
+import './produtosPopulares.css';
 
 function ProdutosPopulares(){
    

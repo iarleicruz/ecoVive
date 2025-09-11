@@ -1,4 +1,4 @@
-import './transEmpresas.css'
+import './transEmpresas.css';
 import { Link } from "react-router-dom";
 import { BsFillCalculatorFill } from "react-icons/bs";
 import { FaPhoneAlt } from "react-icons/fa";

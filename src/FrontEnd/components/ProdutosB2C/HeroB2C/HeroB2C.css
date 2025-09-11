@@ -1,25 +1,26 @@
 
-.hero__contato {
+.hero__B2C {
   background: linear-gradient(90deg, #F0FDF4 0%, #EFF6FF 100%);
   display: flex;
   justify-content: center;
   height: 360px;
+  
 }
-.hero__contato__container{
+.hero__B2C__container{
  width: 1200px;
  
     
 }
-.hero__contato__text {
+.hero__B2C__text {
   margin-top: 80px;
   text-align: center;
   
 }
-.hero__contato__text h1 {
+.hero__B2C__text h1 {
 font-family: Lora;
 font-weight: 700;
 font-style: Bold;
-font-size: 60px;
+font-size: 56px;
 line-height: 60px;
 letter-spacing: 0%;
 vertical-align: middle;
@@ -27,15 +28,15 @@ color: #101828;
 
 }
 
-.hero__contato__text h1 strong {
+.hero__B2C__text h1 strong {
  color: #005900;
- font-size: 60px;
+ font-size: 56px;
  font-family: Lora;
 font-weight: 700;
 font-style: Bold;
 
  }
-.hero__contato__text p {
+.hero__B2C__text p {
 margin-top: 24px;
 padding-bottom: 12px;
 font-family: Segoe UI;
@@ -45,6 +46,7 @@ font-size: 20px;
 line-height: 28px;
 letter-spacing: 0%;
 color: #4A5565;
+
 
 }
 

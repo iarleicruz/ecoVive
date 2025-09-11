@@ -1,10 +1,10 @@
-import './categorias.css'
+import './categorias.css';
 import { Link } from "react-router-dom";
 import { HiArrowSmallRight } from 'react-icons/hi2';
-import imgCor from './assets/Background.png'
-import imgFol from './assets/Background1.png'
-import imgEstr from './assets/Background2.png'
-import imgTri from './assets/Background3.png'
+import imgCor from './assets/Background.png';
+import imgFol from './assets/Background1.png';
+import imgEstr from './assets/Background2.png';
+import imgTri from './assets/Background3.png';
 
 function Categorias(){
     return(

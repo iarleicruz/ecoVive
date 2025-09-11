@@ -1,5 +1,5 @@
 
-import './heroSobre.css'
+import './heroSobre.css';
 
 function HeroSobre(){
     return(

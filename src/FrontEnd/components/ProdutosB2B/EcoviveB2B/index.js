@@ -1,8 +1,8 @@
-import './ecoViveB2B.css'
-import imgSet from './assets/Background.png'
-import imgCaix from './assets/Background1.png'
-import imgCert from './assets/Background2.png'
-import imgFol from './assets/Background3.png'
+import './ecoViveB2B.css';
+import imgSet from './assets/Background.png';
+import imgCaix from './assets/Background1.png';
+import imgCert from './assets/Background2.png';
+import imgFol from './assets/Background3.png';
 
 function EcoviveB2B(){
     return(

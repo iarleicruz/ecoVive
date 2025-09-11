@@ -1,7 +1,14 @@
+import HeroB2C from "../components/ProdutosB2C/HeroB2C";
+import FiltrosBuscaProdutos from "../components/ProdutosB2C/FiltrosBuscaProdutos";
+
 function Prodb2c(){
     return(
-       
-            <h1>Teste Prodb2c</h1>
+       <div>
+        
+        <HeroB2C />
+        <FiltrosBuscaProdutos />
+
+       </div>
     )
 }
 export default Prodb2c;

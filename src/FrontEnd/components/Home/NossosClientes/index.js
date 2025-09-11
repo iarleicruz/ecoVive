@@ -1,5 +1,5 @@
-import './nossosClientes.css'
-import imgEst from './assets/estrelas.png'
+import './nossosClientes.css';
+import imgEst from './assets/estrelas.png';
 
 
 function NossosClientes(){

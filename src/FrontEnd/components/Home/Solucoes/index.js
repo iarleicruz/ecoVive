@@ -1,4 +1,4 @@
-import './solucoes.css'
+import './solucoes.css';
 import { Link } from "react-router-dom";
 import { HiArrowSmallRight } from 'react-icons/hi2';
 

@@ -1,8 +1,8 @@
 
 import './nossaEquipe.css';
-import fotoCEO from './assets/Background.png'
-import fotoCTO from './assets/Background1.png'
-import fotoDir from './assets/Background2.png'
+import fotoCEO from './assets/Background.png';
+import fotoCTO from './assets/Background1.png';
+import fotoDir from './assets/Background2.png';
 
 function nossaEquipe() {
     return (
@@ -33,7 +33,7 @@ function nossaEquipe() {
                         <div className='item__text'>
                             <h4>Carlos Mendes</h4>
                             <h5>CTO</h5>
-                            <p>Desenvolvedor apaixonado por tecnologia  <br/> sustentável 
+                            <p>Desenvolvedor apaixonado por tecnologia sustentável  <br/>
                              e inovação.</p>
                         </div>
                     </div>

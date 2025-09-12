@@ -7,12 +7,12 @@ import NossaEquipe from '../components/Sobre/NossaEquipe';
 function Sobre(){
     return(
     <div>
-
+{/* 
     <HeroSobre />
     <SobreItem />
     <NossaJornada />
     <NossoCompromisso />
-    <NossaEquipe />
+    <NossaEquipe /> */}
     
     </div>
     )

@@ -13,26 +13,112 @@
 .filtrosBuscaProdutos__filtro {
     width: 296px;
     height: 694px;
-    background: #6A7282;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.filtrosBuscaProdutos__filtro .filtro{
+    display: flex;
+    margin: 28px 4px 20px 24px;
+    
+}
+.filtrosBuscaProdutos__filtro .filtro img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 2px;
+    
+}
+.filtrosBuscaProdutos__filtro .filtro h2{
+    
+    margin-left: 6px;
+}
+
+.buscaProd p {
+font-family: Segoe UI;
+font-weight: 600;
+font-style: Semibold;
+font-size: 14px;
+line-height: 20px;
+margin: 0 0 0px 30px;
+
+}
+
+.buscaProd input {
+width: 220px;
+height: 40px;
+opacity: 1;
+border-radius: 10px;
+border-width: 1px;
+margin-top: 10px;
+margin-left: 8px;
+
+  
+}
+
+.buscaProd img {
+ position: relative;
+ top: 4px;
+ left: 38px;
+
+
+}
+.filtrosBuscaProdutos__filtro .categoria p, 
+.filtrosBuscaProdutos__filtro .categoria div,
+.filtrosBuscaProdutos__filtro .faixaPreco p, 
+.filtrosBuscaProdutos__filtro .faixaPreco div,
+.ordenado {
+ margin: 8px 0 8px 24px;
+}
+.filtrosBuscaProdutos__filtro .faixaPreco div,
+.filtrosBuscaProdutos__filtro .categoria div{
+    margin: 10px 0 0 24px;
+}
+.filtrosBuscaProdutos__filtro .faixaPreco p, 
+.filtrosBuscaProdutos__filtro .categoria p,
+.ordenado p {
+margin-top: 24px;
+}
+.filtrosBuscaProdutos__filtro .categoria div label,
+.filtrosBuscaProdutos__filtro .faixaPreco div label{
+ margin-left: 8px;
+}
+
+.ordenado input {
+margin-top: 10px;
+padding-left: 15px;
+width: 220px;
+height: 40px;
+opacity: 1;
+border-radius: 10px;
+border-width: 1px;
+border: 1px solid #D1D5DC;
+text-align: left;
+
 }
 .filtrosBuscaProdutos__items {
     display: grid;
-    grid-template-columns: 225px 225px 225px;
+    grid-template-columns: 280px 280px 280px;
     flex-direction: column;
     gap: 32px;
     padding-top: 80px ;
-
+   
+   
 }
 .filtrosBuscaProdutos__items  div {
+    
     box-shadow: 0px 4px 6px -4px #0000001A;
     box-shadow: 0px 10px 15px -3px #0000001A;
-     height: 460px;
+    height: 480px;
+    width: 280px;
+ 
 
  }
 
-  .filtrosBuscaProdutos__items__img{
-    width: 280px;
-    height: 190px;
+ .filtrosBuscaProdutos__items__img{
+    width: 169px;
+    height: 169px;
+   
+   
  }
  .filtrosBuscaProdutos__items h4{
    
@@ -40,11 +126,35 @@
     left: 24px;
     top: 24px;
     font-size: 18px;
+    margin-bottom: 30px;
  }
- .filtrosBuscaProdutos__items p{
+
+ .descricao {
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #4A5565;
+margin-top: 10px;
+position: relative;
+left: 24px;
+ 
+}
+
+
+   .filtrosBuscaProdutos__items .imgEstrelas {
+    margin: 10px 0 0 0;
+    position: relative;
+    left: 10px;
+
+  }
+
+   .filtrosBuscaProdutos__items p{
    
     position: relative;
-    left: 18px;
+    left: 22px;
     font-family: Segoe UI;
     font-weight: 700;
     font-style: Bold;
@@ -55,12 +165,6 @@
     width: 112px;
  }
 
-   .filtrosBuscaProdutos__items .imgEstrelas {
-    margin: 26px 0 0 0;
-    position: relative;
-    left: 10px;
-
-  }
 
  .filtrosBuscaProdutos__items .addCar {
     padding: 14px;
@@ -107,11 +211,74 @@
 .preco span{
     position: relative;
     top: -32px;
-    left: 85px;
+    left: 115px;
     color: #6A7282;
     font-size: 14px;
     text-decoration: line-through;
 
-    
+}
+
+.buttons {
+    text-align: center;
+    margin: 50px 0 0 320px;
+    text-decoration: none;
+
+}
+.buttons .btn__ant,
+.buttons .btn__prox{
+padding: 8px 12px 8px 12px;
+background: transparent;
+border: 1px solid #D1D5DC;
+border-radius: 10px;
+text-decoration: none;
+margin: 4px;
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: #0A0A0A;
+
+
+}
+.buttons .btn__1 {
+text-decoration: none;
+padding: 8px 12px 8px 12px;
+background: #005900;
+border: 1px solid #005900;
+border-radius: 10px;
+margin: 4px;
+color: #FFFFFF;
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+
+
+}
+.buttons .btn__2,
+.buttons .btn__3 {
+text-decoration: none;
+padding: 8px 12px 8px 12px;
+background: transparent;
+border: 1px solid #D1D5DC;
+border-radius: 10px;
+margin: 4px;
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #0A0A0A;
 
 }

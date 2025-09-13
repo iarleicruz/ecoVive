@@ -83,7 +83,7 @@ margin-top: 24px;
  margin-left: 8px;
 }
 
-.ordenado input {
+.ordenado select {
 margin-top: 10px;
 padding-left: 15px;
 width: 220px;
@@ -93,6 +93,22 @@ border-radius: 10px;
 border-width: 1px;
 border: 1px solid #D1D5DC;
 text-align: left;
+
+}
+.qtde__produtos {
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #4A5565;
+text-align: left;
+width: calc(1000px - 400px);
+margin: auto;
+position: relative;
+top: 30px;
+
 
 }
 .filtrosBuscaProdutos__items {

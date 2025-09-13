@@ -17,7 +17,8 @@ import './filtrosBuscaProdutos.css';
 function FiltrosBuscaProdutos() {
     return(
         <div className='filtrosBuscaProdutos'>
-
+            
+           <p className="qtde__produtos">Mostrando 8 produtos</p>
 
             <div className='filtrosBuscaProdutos__container'>
                 <div className='filtrosBuscaProdutos__filtro'>
@@ -93,11 +94,17 @@ function FiltrosBuscaProdutos() {
 
                        <div className="ordenado">
                         <p>Ordenar por</p>
-                        <input type="button" value="Popularidade"/>
+                         <select name="selectedPopularidade">
+                           <option value="popularidade">Popularidade</option>
+                           <option value="Menor">Menor Preço</option>
+                           <option value="Maior">Maior Preço</option>
+                           <option value="Melhor">Melhor Avaliação</option>
+                           <option value="Mome">Mome A-Z</option>
+                           </select>
                        </div>
                 </div>
-
-                  
+                       
+                                  
                 <div className='filtrosBuscaProdutos__items'>
                     <div>
                         <img className="filtrosBuscaProdutos__item__img" src={ imgCopo } alt="" />

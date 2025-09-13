@@ -16,7 +16,7 @@ function Hero(){
 
                     <p>Descubra milhares de produtos eco-frienly de marcas comprometidas com a sustentabilidade. Faça a diferença com cada compra.</p>
                     <div className="btn__home__text">
-                    <Link className="btnExpProd" to="#">Explorar Produtos <HiArrowSmallRight/> </Link>
+                    <Link className="btnExpProd" to="/Prodb2c">Explorar Produtos <HiArrowSmallRight/> </Link>
                     <Link className="btnSolB2B" to="/Prodb2b">Soluções B2B</Link>
                     </div>
 

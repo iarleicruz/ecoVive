@@ -18,7 +18,9 @@ function HeroB2B(){
                     <p>Transfome sua empresa com produtos sustentáveis de alta <br/> qualidade. Oferecemos soluções completas para empresas comprometidas com o futuro do planeta.</p>
                     <div className="btn__heroB2B__text">
                     <Link className="btnSoliCot" to="#"><BsFillCalculatorFill /> Solicitar Cotação </Link>
-                    <Link className="btnVerProd" to="#">Ver Produtos <HiArrowSmallRight/></Link>
+                    {/* <Link className="btnVerProd" to="/Prodb2b/#verProd">Ver Produtos <HiArrowSmallRight/></Link> */}
+                   <a className="btnVerProd" href="#verProd">Ver Produtos <HiArrowSmallRight/></a>
+        
                     </div>
 
                  </div>

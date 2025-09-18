@@ -5,8 +5,8 @@ function Prodb2c(){
     return(
        <div>
         
-        <HeroB2C />
-        <FiltrosBuscaProdutos />
+        {/* <HeroB2C />
+        <FiltrosBuscaProdutos /> */}
 
        </div>
     )

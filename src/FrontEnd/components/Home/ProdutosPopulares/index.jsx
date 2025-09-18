@@ -10,7 +10,7 @@ import './produtosPopulares.css';
 function ProdutosPopulares(){
    
     return(
-       <div className='produtos'>
+       <div className='produtos' id="prodPop">
    <h2>Produtos Mais Populares</h2>
    <p>Descubra os produtos sustentáveis mais amados pelos nossos clientes</p>
 

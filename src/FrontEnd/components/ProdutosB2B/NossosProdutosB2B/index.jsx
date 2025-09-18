@@ -6,15 +6,15 @@ import brindes from './assets/Brindes Corporativos Sustentáveis.png';
 import produtos from './assets/Produtos de Limpeza Biodegradáveis.png';
 import uniforme from './assets/Uniformes de Algodão Orgânico.png';
 import embalag from './assets/Embalagens Compostáveis.png';
-
 import './nossosProdutosB2B.css'
 import { BsFillCalculatorFill } from "react-icons/bs";
-
-
+            
 function ProdutosPopulares(){
    
     return(
-       <div className='nossos__produtos'>
+          
+       <div className='nossos__produtos' id="verProd">
+
    <h2>Nossos Produtos B2B</h2>
    <p>Soluções sustentáveis para todas as necessidades da sua empresa.</p>
 
@@ -22,7 +22,7 @@ function ProdutosPopulares(){
     <div className="nossos__produtos__menu">
               
             <Link className="link__nossos__produtos__menu" to="#">Todas as Categorias</Link>
-            <Link className="link__nossos__produtos__menu" to="#e">Material de Escritório</Link>
+            <Link className="link__nossos__produtos__menu" to="#">Material de Escritório</Link>
             <Link className="link__nossos__produtos__menu" to="#">Produtos de Limpeza</Link>
             <Link className="link__nossos__produtos__menu" to="#">Embalagens Sustentáveis</Link>
             <Link className="link__nossos__produtos__menu" to="#">Uniformes Ecológicos</Link>

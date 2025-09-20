@@ -19,7 +19,7 @@ function HeroProdutos(){
                     <div className="btn__heroB2B__text">
                     <Link className="btnSoliCot" to="#"><BsFillCalculatorFill /> Solicitar Cotação </Link>
                     {/* <Link className="btnVerProd" to="/Prodb2b/#verProd">Ver Produtos <HiArrowSmallRight/></Link> */}
-                   <a className="btnVerProd" href="#verProd">Ver Produtos <HiArrowSmallRight/></a>
+                   <a className="btnVerProd" href="#ecovive">Ver Produtos <HiArrowSmallRight/></a>
         
                     </div>
 

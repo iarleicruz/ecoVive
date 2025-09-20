@@ -7,7 +7,7 @@ import imgFol from './assets/Background3.png';
 function EcoviveB2B(){
     return(
 <div className='ecovive'>
-   <h1>Por que Escolher a EcoVive B2B?</h1>
+   <h1>Por que Escolher a EcoVive?</h1>
    <p>Oferecemos muito mais que produtos sustentáveis - somos seu parceiro na <br/>jornada rumo à sustentatbilidade corporativa</p>
 
    <div className='ecovive__items'>

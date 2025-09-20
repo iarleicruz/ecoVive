@@ -12,7 +12,7 @@ import imgTal from './assets/talheres.png';
 import { VscCircleFilled } from "react-icons/vsc";
 import imgfilter from './assets/filter.png'
 import imgSearch from './assets/search.png'
-import './filtrosBuscaProdutos.css';
+import './filtroProdutosEmpresa.css';
 
 function FiltrosBuscaProdutos() {
     return(

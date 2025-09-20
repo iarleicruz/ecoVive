@@ -11,14 +11,14 @@ function Header(){
         <header>
           <nav>
             <div className="logo">
-              <img src={logo} alt="logo da EcoVive"/> 
+             <Link to="/"> <img src={logo} alt="logo da EcoVive"/> </Link>
             </div>
-             <div className="menu">
+             <div className="menu" id="topo">
               
             <Link className="link__menu" to="/">Início</Link>
             <Link className="link__menu" to="/Sobre">Sobre</Link>
-            <Link className="link__menu" to="/Prodb2b">Produtos B2B</Link>
-            <Link className="link__menu" to="/Prodb2c">Produtos B2C</Link>
+            <Link className="link__menu" to="/Produtos">Produtos</Link>
+            <Link className="link__menu" to="/ParaEmpresas">Para Empresas</Link>
             <Link className="link__menu" to="/Contato">Contato</Link>
              </div>
             <div className="button__header">

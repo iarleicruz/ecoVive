@@ -14,11 +14,11 @@ function Hero(){
                     para um Futuro Melhor
                     </h1>
 
-                    <p>Descubra milhares de produtos eco-frienly de marcas comprometidas com a sustentabilidade. Faça a diferença com cada compra.</p>
+                    <p>"Encontre produtos sustentáveis de marcas comprometidas com o planeta. Cada escolha faz a diferença."</p>
                     <div className="btn__home__text">
-                    {/* <Link className="btnExpProd" to="#prodPop">Explorar Produtos <HiArrowSmallRight/> </Link> */}
-                    <a className="btnExpProd" href="#prodPop">Explorar Produtos <HiArrowSmallRight/></a>
-                    <Link className="btnSolB2B" to="/Prodb2b">Soluções B2B</Link>
+                    {/* <Link className="btnExpProd" to="/#prod">Explorar Produtos <HiArrowSmallRight/> </Link> */}
+                    <a className="btnExpProd" href="#prod">Começar Agora <HiArrowSmallRight/></a>
+                    <Link className="btnSolB2B" to ="/Produtos">Para Empresas</Link>
                     </div>
 
                  </div>

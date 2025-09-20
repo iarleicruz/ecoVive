@@ -1,4 +1,4 @@
-import './ecoViveB2B.css';
+import './ecoViveProdutos.css';
 import imgSet from './assets/Background.png';
 import imgCaix from './assets/Background1.png';
 import imgCert from './assets/Background2.png';

@@ -28,11 +28,12 @@ function Footer(){
 
                     <div className="footer__links">
                         <p>Links Rápidos</p>
-                    <a className="link__menu" href="/">Início</a>
-                    <a className="link__menu" href="/Sobre">Sobre</a>
-                    <a className="link__menu" href="/Prodb2b">Produtos B2B</a>
-                    <a className="link__menu" href="/Prodb2c">Produtos B2C</a>
-                    <a className="link__menu" href="/Contato">Contato</a>
+                   
+                     <Link className="link__menu" to= "/">Inicio</Link>
+                     <Link className="link__menu" to= "/Sobre">Sobre</Link>
+                     <Link className="link__menu" to= "/Prodb2b">Produtos</Link>
+                     <Link className="link__menu" to= "/Prodb2c">Para Empresas</Link>
+                     <Link className="link__menu" to= "/Contato">Contato</Link>
                    
                     </div>
 

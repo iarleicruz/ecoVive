@@ -4,9 +4,9 @@ import imgcert from "./assets/imgEmp.png";
 import { HiArrowSmallRight } from 'react-icons/hi2';
 import { BsFillCalculatorFill } from "react-icons/bs";
 
-import './heroB2B.css'
+import './heroProdutos.css'
 
-function HeroB2B(){
+function HeroProdutos(){
     return(
         <div className="heroB2B">
             <div className="heroB2B__container">
@@ -36,4 +36,4 @@ function HeroB2B(){
     )
 }
 
-export default HeroB2B;
+export default HeroProdutos;

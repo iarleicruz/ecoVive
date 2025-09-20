@@ -6,14 +6,14 @@ import brindes from './assets/Brindes Corporativos Sustentáveis.png';
 import produtos from './assets/Produtos de Limpeza Biodegradáveis.png';
 import uniforme from './assets/Uniformes de Algodão Orgânico.png';
 import embalag from './assets/Embalagens Compostáveis.png';
-import './nossosProdutosB2B.css'
+import './nossosProdutos.css'
 import { BsFillCalculatorFill } from "react-icons/bs";
             
 function ProdutosPopulares(){
    
     return(
           
-       <div className='nossos__produtos' id="verProd">
+       <div className='nossos__produtos'>
 
    <h2>Nossos Produtos B2B</h2>
    <p>Soluções sustentáveis para todas as necessidades da sua empresa.</p>

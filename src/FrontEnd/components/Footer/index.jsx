@@ -34,9 +34,9 @@ function Footer(){
                      <Link className="link__menu" to= "/Produtos">Produtos</Link>
                      <Link className="link__menu" to= "/ParaEmpresas">Para Empresas</Link>
                      <Link className="link__menu" to= "/Contato">Contato</Link> */}
-                     <a className="link__menu" href="http://localhost:5173/">Inicio</a>
-                     <a className="link__menu" href="http://localhost:5173/Sobre">Sobre</a>
-                     <a className="link__menu" href="http://localhost:5173/Produtos">Produtos</a>
+                     <a className="link__menu" href="/">Inicio</a>
+                     <a className="link__menu" href="Sobre">Sobre</a>
+                     <a className="link__menu" href="Produtos">Produtos</a>
                      <a className="link__menu" href="http://localhost:5173/ParaEmpresas">Para Empresas</a>
                      <a className="link__menu" href="http://localhost:5173/Contato">Contato</a>
                     </div>
